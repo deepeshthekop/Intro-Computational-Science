@@ -9,7 +9,8 @@ z = x**2 + y**2
 
 fig = plt.figure() # Create a new figure
 ax = fig.add_subplot(111, projection='3d') # Add a 3D subplot to the figure
-ax.plot_surface(x, y, z)
+
+ax.plot_surface(x, y, z) # Plot the 3D surface
 
 ax.set_xlabel('X-axis')
 ax.set_ylabel('Y-axis')
