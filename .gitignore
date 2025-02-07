@@ -2,3 +2,4 @@ test.ipynb
 .venv
 .ipynb_checkpoints
 test2.py
+.DS_Store
