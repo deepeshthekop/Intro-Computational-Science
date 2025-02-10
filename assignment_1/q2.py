@@ -10,6 +10,8 @@ def exact_derivative(x):
 x_values = np.arange(0, 2.1, 0.1)
 h = 0.1
 
+print("Function values: ", f(x_values))
+
 numerical_derivative = (f(x_values + h) - f(x_values - h)) / (2 * h)
 
 exact_derivative_values = exact_derivative(x_values)
