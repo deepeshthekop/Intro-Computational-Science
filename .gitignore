@@ -1,5 +1,7 @@
 test.ipynb
 .venv
 .ipynb_checkpoints
+test.py
 test2.py
+test3.py
 .DS_Store
