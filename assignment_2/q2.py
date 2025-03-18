@@ -24,4 +24,4 @@ for i in range(max_iterations):
         x = x - f_prime / f_double_prime
         print(f"Iteration {i}: x = ", x)
 
-print("Minimun of the nonlinear function occurs at x ~ ", x)
+print("Minimum of the nonlinear function occurs at x ~ ", x)
