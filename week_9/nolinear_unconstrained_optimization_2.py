@@ -15,4 +15,9 @@ plt.title("Graph of f(x) = x^3 - 3*x^2")
 plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.grid()
+
+plt.plot(0, 0**3 - 3*(0**2), 'ro', label='Maximum at x=0')
+plt.plot(2, 2**3 - 3*(2**2), 'go', label='Minimum at x=2')
+
+plt.legend()
 plt.show()
